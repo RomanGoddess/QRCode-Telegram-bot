@@ -18,7 +18,7 @@ async def start(client, message):
     await client.send_message(
         
         chat_id=message.chat.id,
-        text=f"<b>Hey {message.from_user.first_name},{msg.start}",
+        text=f"<b>Hello {message.from_user.first_name}, My Name Is 𝗤𝗥𝗖𝗢𝗗𝗘 𝗙𝗟𝗜𝗫 𝗕𝗢𝗧. 🥳\n\nI'm A <u>𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠 𝗤𝗥𝗖𝗢𝗗𝗘 𝗦𝗖𝗔𝗡𝗡𝗘𝗥 𝗕𝗢𝗧.</u>\n\nSend Me A Link/Text To Convert It Into 𝗤𝗥𝗖𝗢𝗗𝗘.\n\n𝗦𝘂𝗯𝘀𝗰𝗿𝗶𝗯𝗲 𝗧𝗼 @Modzilla 𝗜𝗳 𝗬𝗼𝘂 𝗟𝗼𝘃𝗲 𝗧𝗵𝗶𝘀 𝗕𝗼𝘁 ♥️.</b>",
         reply_to_message_id=message.message_id,
         parse_mode = "html" 
     )
